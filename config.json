@@ -1,0 +1,29 @@
+{
+    "MultiMonitorToolPath": "C:\\Program Files (x86)\\Multi Monitor Tool\\MultiMonitorTool.exe",
+    "Applications": [
+        {
+            "Name": "msedge",
+            "Arguments": ["--inprivate", "--start-maximized", "https://monitoringsr.leygatech.fr/Dev/Leygatech/index.php"],
+            "Monitor": 2,
+            "Delay": 2
+        },
+        {
+            "Name": "msedge",
+            "Arguments": ["--inprivate", "--start-maximized", "https://monitoringyx.leygatech.fr/Dev/Leygatech/index.php"],
+            "Monitor": 2,
+            "Delay": 2
+        },
+        {
+            "Name": "OUTLOOK",
+            "Monitor": 3,
+            "Delay": 2,
+            "WindowStyle": "Maximized"
+        },
+        {
+            "Name": "RemoteDesktopManager",
+            "Monitor": 1,
+            "Delay": 15,
+            "WindowStyle": "Maximized"
+        }
+    ]
+}
